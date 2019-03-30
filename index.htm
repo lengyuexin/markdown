@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <title>欢迎使用Markdown编辑器</title>
+  <link rel="stylesheet" href="css/article.css">
+  <style type="text/css">
+    body{
+      overflow-y: scroll;
+      background:#1abc9c;
+    }
+  .wrapper{
+    width: 700px;
+    max-width: 96%;
+    margin: auto;
+    padding: 100px 0
+  }
+  .wrapper textarea{
+    width: 400px;
+    height: 200px;
+  }
+  img{width:100px;}
+  input[type=button]{width:120px;height:30px;}
+
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<center><h2>欢迎使用Markdown编辑器</h2></center>
+  <textarea id="md_editor">
+## Markdown简介
+> Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+
+## 常用格式及快捷键
+- **加粗文字** `Ctrl + B`
+- *斜体文字* `Ctrl + I`
+- [链接文字](http://lengyuexin.coding.me/apiBlog/) `Ctrl + L`
+- 图片![头像](img/avatar.png) `Ctrl + G`
+- `code` `Ctrl + Shift + K`
+- 代码块`Ctrl + K`：
+</textarea>
+  <br/>
+  <center>
+    <input type="button" value="获取markdown" onclick="getContent()" class="btn1"/>
+    <input type="button" value="获取html" onclick="getHtml()" class="btn2" />
+    <input type="button" value="插入内容" onclick="insert()"  class="btn3"/>
+  </center>
+</textarea>
+</div>
+
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/mditor.js"></script>
+  <script type="text/javascript">
+    var editor = new mditor(document.getElementById('md_editor'));
+    function getContent(){
+      alert("获取成功，请于控制台查看")
+      console.log(editor.getContent())
+    }
+    function getHtml(){
+      alert("获取成功，请于控制台查看")
+      console.log(editor.getHtml())
+    }
+    function insert(){
+      editor.insert('自定义快速插入的文字 ');
+    }
+  </script>
+</body>
+</html>
