@@ -10,15 +10,17 @@
 - 代码块`Ctrl + K`：
 
 ## 效果图
-* 编辑
+### 编辑界面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330172655490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyODEzNDkx,size_16,color_FFFFFF,t_70)
 
-* 预览
+### 预览界面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330172751691.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyODEzNDkx,size_16,color_FFFFFF,t_70)
 
-* 帮助文档
+
+### 帮助文档
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330172825848.png)
 
-* 全屏效果
+
+### 全屏效果
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190330172855574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyODEzNDkx,size_16,color_FFFFFF,t_70)
